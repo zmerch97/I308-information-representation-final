@@ -29,7 +29,7 @@ SELECT c.courseNum AS Course, t.grade AS Grade, sem.title, SUM(c.creditHours) AS
 FROM student AS st, transcript AS t, section AS s, course AS c, semester AS sem, gradescale AS g
 WHERE st.uniqueid = t.studentid
 AND s.courseid = c.courseNum
-AND st.uniqueid = '$studentid
+AND st.uniqueid = '$studentid'
 AND s.semesterid = sem.semesterid
 AND t.sectionid = s.sectionid
 AND t.grade = g.letterGrade

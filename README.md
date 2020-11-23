@@ -11,4 +11,4 @@ In this process we:
 6) Wrote PHP scripts to build an interactive form
 8) Participated in a team-based learning environment.
 
-Link: http://cgi.soic.indiana.edu/~bdbowles/team04final.php
+
